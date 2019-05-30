@@ -1,0 +1,10 @@
+html {
+    background-color: black;
+}
+
+.logo {
+    border-radius: 30cm;
+    margin: 0.5rem;
+    position: fixed;
+    overflow: visible
+}

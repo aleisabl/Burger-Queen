@@ -1,0 +1,63 @@
+.table-bordered {
+    background-color: #D67A99;
+}
+
+.btn-outline-info, .btn-outline-info2 {
+/* texto */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #000000;
+/* boton */
+    border: 1px solid #000000;
+    position: absolute;
+    width: 386px;
+    height: 102px;
+    left: 90px;
+    top: 84px;
+
+    background: rgba(179, 235, 226, 0.89);
+    border-radius: 45px;
+}
+
+.btn-outline-info2 {
+        top: 272px;
+    }
+
+.rectangle, .rectangle2 {
+    position: absolute;
+    width: 590px;
+    height: 500px;
+    left: 50px;
+    top: 100px;
+    background: rgba(250, 129, 170, 0.87);
+    border: 17px solid #B3EBE2;
+    box-sizing: border-box;
+    border-radius: 44px;
+}
+
+.breakfast-div, .lunch-div {
+    margin: 10px 0px 5px 20px;
+    width: 220px;
+    height: 100px;
+}
+
+.rectangle2 {
+    overflow: auto;
+    left: 680px;
+}
+
+.rectangle2::-webkit-scrollbar {
+    width: 22px;
+    margin-right: 70px;
+}
+
+
+.rectangle2::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    color: red;
+    -webkit-box-shadow: inset 0 0 6px #B3EBE2; 
+    margin-right: 30rem;
+}

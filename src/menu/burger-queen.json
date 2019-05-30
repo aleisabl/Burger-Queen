@@ -1,0 +1,146 @@
+{
+  "Desayunos": [
+  {
+    "_id": 1,
+    "num": "001",
+    "name": "Café americano",
+    "img": "https://image.flaticon.com/icons/svg/579/579125.svg",
+    "price": "500"
+    
+  }, 
+  
+  {
+    "_id": 2,
+    "num": "002",
+    "name": "Café con leche",
+    "img": "https://image.flaticon.com/icons/svg/579/579125.svg",
+    "price": "700"
+    
+    },
+
+    {
+    "_id": 3,
+    "num": "003",
+    "name": "Sandwich de jamón y queso",
+    "img": "https://image.flaticon.com/icons/svg/135/135591.svg",
+    "price": "1000"
+    },
+
+    {
+      "_id": 4,
+      "num": "004",
+      "name": "Jugo natural",
+      "img": "https://image.flaticon.com/icons/svg/1687/1687286.svg",
+      "price": "700"
+    }
+  
+  
+],
+  
+"Hamburguesas": [
+  {
+    "_id": 5,
+    "num": "005",
+    "name": "Hamburguesa simple",
+    "img": "https://image.flaticon.com/icons/svg/1046/1046784.svg",
+    "price": "1500",
+    "type": [
+      "Res",
+      "Pollo",
+      "Vegetariana"
+    ],
+    "extras": [
+      "Queso",
+      "500"
+    , 
+      "Huevo",
+      "500"
+    ]
+    
+  }, 
+  
+  {
+    "_id": 6,
+    "num": "006",
+    "name": "Hamburguesa doble",
+    "img": "https://image.flaticon.com/icons/svg/1046/1046787.svg",
+    "price": "2500",
+    "type": [
+      "Res",
+      "Pollo",
+      "Vegetariana"
+    ],
+    "extras": [
+      "Queso",
+      "500"
+    , 
+     "Huevo",
+      "500"
+    ]
+    
+    }
+  
+],
+
+
+"Acompañamientos": [
+  {
+    "_id": 7,
+    "num": "007",
+    "name": "Aros de Cebolla",
+    "img": "https://image.flaticon.com/icons/svg/184/184569.svg",
+    "price": "500"
+    
+  }, 
+  
+  {
+    "_id": 8,
+    "num": "008",
+    "name": "Papas fritas",
+    "img": "https://image.flaticon.com/icons/svg/1046/1046786.svg",
+    "price": "500"
+    
+    }
+  
+],
+
+"Bebidas": [
+  {
+    "_id": 9,
+    "num": "009",
+    "name": "Agua 500ml",
+    "img": "https://image.flaticon.com/icons/svg/1651/1651824.svg",
+    "price": "500"
+    
+  }, 
+  
+  {
+    "_id": 10,
+    "num": "010",
+    "name": "Agua 770ml",
+    "img": "https://image.flaticon.com/icons/svg/1651/1651824.svg",
+    "price": "800"
+    
+    },
+
+    {
+      "_id": 11,
+      "num": "011",
+      "name": "Gaseosa 500ml",
+      "img": "https://image.flaticon.com/icons/svg/1046/1046789.svg",
+      "price": "700"
+      
+    }, 
+    
+    {
+      "_id": 12,
+      "num": "012",
+      "name": "Gaseosa 770ml",
+      "img": "https://image.flaticon.com/icons/svg/1046/1046789.svg",
+      "price": "1000"
+      
+      }
+
+]
+
+}
