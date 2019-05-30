@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import './menu.css';
 
-const url = 'https://raw.githubusercontent.com/aleisabl/Burger-Queen/take-order/burger-queen/src/menu/burger-queen.json';
+const url = 'https://raw.githubusercontent.com/aleisabl/Burger-Queen/master/src/menu/burger-queen.json';
 
 class ComponentLunch extends Component {
  // State will apply to the Lunch object which is set to loading by default
