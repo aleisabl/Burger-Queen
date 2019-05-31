@@ -15,7 +15,7 @@ class ComponentNameForm extends Component {
     }
   
     handleSubmit(event) {
-      alert('Mesa de ' + this.state.value + 'enviada a cocina');
+      alert('Mesa de ' + this.state.value + ' enviada a cocina exitosamente');
       event.preventDefault();
     }
   

@@ -48,8 +48,17 @@ class ComponentLunch extends Component {
                 <div key={_id}>
                   <h6>{name}</h6>
                   <p>Precio: ${price}</p>
-                  <p>Tipo: <b>{type[0]}, {type[1]}, {type[2]}</b></p>
-                  <p>{extras[0]} ${extras[1]} <br></br> {extras[2]} ${extras[3]}</p>
+                  <h6>Tipos de carne:</h6>
+                  <b>{type[0]}</b><input className="form-check-input " type="checkbox" id="blankCheckbox" value="option1" aria-label="..."></input>
+                  <br></br>
+                  <b>{type[1]}</b><input className="form-check-input " type="checkbox" id="blankCheckbox" value="option2" aria-label="..."></input>
+                  <br></br>
+                  <b>{type[2]}</b><input className="form-check-input " type="checkbox" id="blankCheckbox" value="option3" aria-label="..."></input>  
+                  <br></br> <br></br>
+                  <h6>Extras:</h6>
+                  <p> <b>{extras[0]}</b> ${extras[1]} <input className="form-check-input " type="checkbox" id="blankCheckbox" value="option4" aria-label="..."></input>
+                   <br></br>
+                  <b>{extras[2]}</b> ${extras[3]} <input className="form-check-input " type="checkbox" id="blankCheckbox" value="option5" aria-label="..."></input> </p>
                   <a href="#"> <img src={img} alt="icon" width="22px"></img> </a>
                   <hr />
                 </div>
@@ -57,7 +66,7 @@ class ComponentLunch extends Component {
             })
 
           ) : (
-            <p>Loading...</p>
+            <p>Cargando el menú...</p>
           )}
 
              { SideDish.map(sidedish => {

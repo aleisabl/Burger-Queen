@@ -49,7 +49,7 @@ class ComponentBreakfast extends Component {
               );
             })
           ) : (
-            <p>Loading...</p>
+            <p>Cargando el menú...</p>
           )}
         </div>
     );
