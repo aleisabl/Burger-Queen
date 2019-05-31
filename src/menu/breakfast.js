@@ -43,7 +43,7 @@ class ComponentBreakfast extends Component {
                 <div className="breakfast-div" key={_id}>
                   <h6>{name}</h6>
                   <p>precio: ${price}</p>
-                {/*  <a href="#"> */} <img /* onClick={addOne()} */ src={img} alt="icon" width="20px"></img> {/* </a> */}
+                <a href="#"> <img /* onClick={addOne()} */ src={img} alt="icon" width="22px"></img> </a> -
                   <hr />
                 </div>
               );

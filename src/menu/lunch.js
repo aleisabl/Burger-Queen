@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import './menu.css';
 
+
 const url = 'https://raw.githubusercontent.com/aleisabl/Burger-Queen/master/src/menu/burger-queen.json';
 
 class ComponentLunch extends Component {
@@ -34,6 +35,7 @@ class ComponentLunch extends Component {
   componentDidMount() {
     this.getLunch();
   }
+
   // Putting that data to use
   render() {
     const { isLoading, Lunch, SideDish, Beverage } = this.state;
@@ -48,7 +50,7 @@ class ComponentLunch extends Component {
                   <p>Precio: ${price}</p>
                   <p>Tipo: <b>{type[0]}, {type[1]}, {type[2]}</b></p>
                   <p>{extras[0]} ${extras[1]} <br></br> {extras[2]} ${extras[3]}</p>
-                  <img src={img} alt="icon" width="20px"></img>
+                  <a href="#"> <img src={img} alt="icon" width="22px"></img> </a>
                   <hr />
                 </div>
               );
@@ -64,7 +66,7 @@ class ComponentLunch extends Component {
                 <div key={_id}>
                   <h6>{name}</h6>
                   <p>precio: ${price}</p>
-                  <img src={img} alt="icon" width="20px"></img>
+                  <a href="#"> <img src={img} alt="icon" width="22px"></img> </a>
                   <hr />
                 </div>
               );
@@ -76,7 +78,7 @@ class ComponentLunch extends Component {
                 <div key={_id}>
                   <h6>{name}</h6>
                   <p>precio: ${price}</p>
-                  <img src={img} alt="icon" width="20px"></img>
+                  <a href="#"> <img src={img} alt="icon" width="22px"></img> </a>
                   <hr />
                 </div>
               );

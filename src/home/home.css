@@ -1,9 +1,7 @@
-html {
-    background-color: black;
-}
-
 .logo {
     border-radius: 30cm;
+    width: 90px;
+    height: 90px;
     margin: 0.5rem;
     position: fixed;
     overflow: visible

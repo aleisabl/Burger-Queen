@@ -7,7 +7,7 @@ class ComponentHome extends Component{
         return (
     <div className="row">
     <div className="logo">
-        <img alt="logo" className="logo" src={logo} width="85" height="80" />
+        <img alt="logo" className="logo" src={logo} />
     </div>
     </div>    
         );

@@ -2,12 +2,11 @@
     background-color: #D67A99;
 }
 
-.btn-outline-info, .btn-outline-info2 {
+.btn-outline-info {
 /* texto */
     font-style: normal;
-    font-weight: normal;
-    font-size: 60px;
-    line-height: 70px;
+    font-weight: 400;
+    font-size: 50px;
     text-align: center;
     color: #000000;
 /* boton */
@@ -17,16 +16,23 @@
     height: 102px;
     left: 90px;
     top: 84px;
-
     background: rgba(179, 235, 226, 0.89);
     border-radius: 45px;
 }
 
-.btn-outline-info2 {
+#btn2 {
         top: 272px;
     }
 
-.rectangle, .rectangle2 {
+.btn3 {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    left: 23rem;
+    top: 14rem;
+}
+
+.rectangle, .rectangle2, .rectangle3 {
     position: absolute;
     width: 590px;
     height: 500px;
@@ -42,6 +48,31 @@
     margin: 10px 0px 5px 20px;
     width: 220px;
     height: 100px;
+}
+
+.nameForm {
+    margin-top: 0.5rem;
+    margin-left: 18rem;
+}
+
+.tableForm {
+    margin-left: 1rem;
+}
+
+.nameSubmit {
+    color: black;
+    background-color: #B3EBE2;
+    border-radius: 2rem;
+    border: 1px solid #000000;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.rectangle3 {
+    left: 20rem;
+    top: 40rem;
+    height: 20rem;
+    margin-bottom: 2rem;
 }
 
 .rectangle2 {
