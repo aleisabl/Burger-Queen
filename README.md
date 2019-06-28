@@ -6,7 +6,7 @@ Nos acaban de enviar un correo con una solicitud para un nuevo proyecto. Hay un
 restaurante que nos ha contactado porque quieren que alguien les construya una
 interfaz donde puedan tomar pedidos usando una tablet.
 
-![burger-queen](https://user-images.githubusercontent.com/110297/42118136-996b4a52-7bc6-11e8-8a03-ada078754715.jpg)
+![burger-queen](/src/assets/screenshot.png)
 
 Como punto de partida,
 nos comparten el siguiente correo recibido del cliente:
@@ -219,92 +219,6 @@ se vaya feliz con su comida.
   * Haces test unitarios y has testeado tu producto por tu cuenta
   * Desplegaste tu aplicación y has etiquetado tu versión desplegada (git tag)
 
-## Primeros pasos
-
-1. Haz un _fork_ de este repo (en GitHub).
-
-2. Clona tu _fork_ en tu computadora:
-
-   ```sh
-   git clone git@github.com:<tu-usuario-de-github>/<cohortid>-burger-queen.git
-   cd <cohortid>-burger-queen
-   ```
-
-3. Crea una rama a partir de `master` para empezar a trabajar. Por ejemplo:
-
-   ```sh
-   git checkout -b develop
-   ```
-
-4. Crear proyecto en [Firebase](https://firebase.google.com/)
-
-5. Habilitar Firestore (_comenzar en modo bloqueado_) en sección de "Bases de
-   Datos" de [Firebase console](https://console.firebase.google.com/).
-
-6. Instalar utilidad de línea de comando de Firebase:
-
-   ```sh
-   npm i -g firebase-tools
-   ```
-
-7. Agregamos entorno de producción para desplegar:
-
-   ```sh
-   firebase use --add
-   ```
-
-8. Instalar dependencias de cloud functions:
-
-   ```sh
-   # usando yarn
-   cd functions && yarn && cd ..
-   # alternativamente, usando npm
-   cd functions && npm install && cd ..
-   ```
-
-9. Desplegar:
-
-   ```sh
-   firebase deploy
-   ```
-
-10. Llegado a este punto ya puedes comenzar con el _front-end_ :wink:
-
-***
-
-Nota para estudiantes que elijan React y quieran usar `create-react-app`:
-
-Si tratas de usar `create-react-app` en el directorio del proyecto recibirás un
-error diciendo que hay archivos que podrían presentar un conflicto. Para evitar
-este problema puedes crear una nueva app usando `create-react-app` y de ahí
-_mezclarla_ con la carpeta del proyecto:
-
-```sh
-# si estabase en la carpeta del proyecto, salimos a la carpeta de más arriba
-cd ..
-
-create-react-app burger-queen-tmp
-cp -r burger-queen/* burger-queen-tmp/
-cp -r burger-queen-tmp/.gitignore burger-queen-tmp/* burger-queen/
-rm -rf burger-queen-tmp
-cd burger-queen
-```
-
-***
-
-## Pistas / Tips
-
-### Frameworks / libraries
-
-* [React](https://reactjs.org/)
-* [Angular](https://angular.io/)
-
-### Herramientas
-
-* [npm-scripts](https://docs.npmjs.com/misc/scripts)
-* [Babel](https://babeljs.io/)
-* [webpack](https://webpack.js.org/)
-
 ### PWA
 
 * [Tu primera Progressive Web App - Google developers](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/?hl=es)
@@ -337,3 +251,6 @@ https://www.loom.com/share/f6f365630fde4c71a8be13e7f0a99dc5
 [Planning Poker](https://play.planningpoker.com/play/game/afJhBSSYsFtczhZEiDavGzTWKwlSCFXT)
 
 [LightHouse](/src/assets/lighthouse.png)
+
+### Autora
+Realizado por `Alexandra Fernández` para `Laboratoria Chile` en 3 semanas.
