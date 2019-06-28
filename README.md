@@ -6,7 +6,7 @@ Nos acaban de enviar un correo con una solicitud para un nuevo proyecto. Hay un
 restaurante que nos ha contactado porque quieren que alguien les construya una
 interfaz donde puedan tomar pedidos usando una tablet.
 
-![burger-queen](/src/assets/screenshot.png)
+![burger-queen](/src/assets/screenshotApp.png)
 
 Como punto de partida,
 nos comparten el siguiente correo recibido del cliente:
